@@ -1,5 +1,6 @@
 body{
     padding-top: 60px;
+    background-color: #ca5586;
 }
 .header{
     background-color: rgb(66, 236, 74);
@@ -37,6 +38,7 @@ nav a{
 hr{color: black;}
 
 .banner_img{
+    background-color: wheat;
     height: 500px;
     flex-direction: row;
     display: flex;
@@ -65,6 +67,7 @@ div,h2,p{
 
 
 .about_me{
+    background-color: wheat;
     height: 500px;
     flex-direction: row-reverse;
     display: flex;
@@ -89,6 +92,7 @@ div,h2,p{
 
 
 .project{
+    background-color: wheat;
     height: 500px;
     flex-direction: row;
     display: flex;
@@ -97,6 +101,7 @@ div,h2,p{
 }
 
 .sentiment_analysis{
+    border: 2px solid black;
     width: 290px;
     height: 200px;
     background-image: url('../assets/sentiment_analysis.jpeg');
@@ -105,6 +110,7 @@ div,h2,p{
 }
 
 .resign{
+    border: 2px solid black;
     width: 290px;
     height: 180px;
     background-image: url('../assets/resign.png');
@@ -113,6 +119,7 @@ div,h2,p{
 }
 
 .yolo{
+    border: 2px solid black;
     width: 290px;
     height: 180px;
     background-image: url('../assets/yolo.jpg');
@@ -120,6 +127,7 @@ div,h2,p{
     background-position: center;
 }
 .message_us{
+    background-color: wheat;
     height: 500px;
     flex-direction: row;
     display: flex;
