@@ -1,0 +1,142 @@
+body{
+    padding-top: 60px;
+}
+.header{
+    background-color: rgb(66, 236, 74);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 3px solid black;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    background-image: url('../assets/r-logo.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+} 
+nav a{
+    border: 1px solid;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+hr{color: black;}
+
+.banner_img{
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div h1{
+    text-align: center;
+    font-family: monospace;
+}
+div,h2,p{
+    font-family: cursive;
+}
+
+
+
+.gambar_home{
+    width: 190px;
+    height: 280px;
+    background-image: url('../assets/r.png'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 25%
+}
+
+
+.about_me{
+    height: 500px;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.deskripsi_profil{
+    width: 550px;
+    height: 300px;
+    text-align: justify;
+    
+}
+
+.gambar_profile{
+    background-image: url(../assets/r2.png);
+    width: 210px;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.project{
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sentiment_analysis{
+    width: 290px;
+    height: 200px;
+    background-image: url('../assets/sentiment_analysis.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.resign{
+    width: 290px;
+    height: 180px;
+    background-image: url('../assets/resign.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.yolo{
+    width: 290px;
+    height: 180px;
+    background-image: url('../assets/yolo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.message_us{
+    height: 500px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button{
+    width: 237px;
+    background-color: darkgray;
+    height: 20px;
+}
+button:hover{
+    background-color: rgb(99, 102, 94);
+}
+
+footer{
+    justify-items: right;
+}
